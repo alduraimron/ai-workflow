@@ -1,0 +1,19 @@
+{
+  "name": "pi-ai-workflow",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Project-local gated AI-assisted software delivery workflow for Pi.",
+  "keywords": ["pi-package"],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/alduraimron/ai-workflow.git"
+  },
+  "pi": {
+    "skills": ["./skills"]
+  },
+  "scripts": {
+    "test": "node tools/self-test.mjs",
+    "check:loading": "node tools/check-loading.mjs"
+  }
+}

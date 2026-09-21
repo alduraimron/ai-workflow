@@ -1,0 +1,11 @@
+# Package-local development install / workflow runtime state for this package
+# used as a consumer project. Each consumer project keeps its own state under
+# .pi/workflow and excludes it through .git/info/exclude.
+.pi/
+
+# Node
+node_modules/
+
+# OS noise
+.DS_Store
+*.log
